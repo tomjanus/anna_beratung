@@ -299,6 +299,12 @@ $t = $content[$lang];
                 <li><a href="#process"><?php echo $t['nav_process']; ?></a></li>
                 <li><a href="#about"><?php echo $t['nav_about']; ?></a></li>
                 <li><a href="#contact"><?php echo $t['nav_contact']; ?></a></li>
+                <li>
+                    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                        <span class="sun-icon">☀️</span>
+                        <span class="moon-icon">🌙</span>
+                    </button>
+                </li>
                 <li class="lang-switcher">
                     <a href="?lang=en" class="<?php echo $lang === 'en' ? 'active' : ''; ?>">EN</a>
                     <a href="?lang=de" class="<?php echo $lang === 'de' ? 'active' : ''; ?>">DE</a>
@@ -460,6 +466,23 @@ $t = $content[$lang];
     </footer>
 
     <script>
+        // Dark Mode Toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        const header = document.querySelector('header');
+        
+        // Check for saved dark mode preference
+        const isDarkMode = localStorage.getItem('darkMode') === 'true';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+        }
+        
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            const isDark = body.classList.contains('dark-mode');
+            localStorage.setItem('darkMode', isDark);
+        });
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -476,11 +499,11 @@ $t = $content[$lang];
 
         // Add scroll effect to header
         window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
+            const isDark = body.classList.contains('dark-mode');
             if (window.scrollY > 100) {
-                header.style.background = 'rgba(255, 255, 255, 0.98)';
+                header.style.background = isDark ? 'rgba(15, 15, 15, 0.98)' : 'rgba(255, 255, 255, 0.98)';
             } else {
-                header.style.background = 'rgba(255, 255, 255, 0.95)';
+                header.style.background = isDark ? 'rgba(15, 15, 15, 0.95)' : 'rgba(255, 255, 255, 0.95)';
             }
         });
     </script>

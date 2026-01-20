@@ -21,6 +21,24 @@
   --radius-lg: 24px;
 }
 
+/* Dark Mode Variables */
+body.dark-mode {
+  --primary: #4a9fd8;
+  --primary-dark: #3b8ec6;
+  --secondary: #5fa8d3;
+  --accent: #ff9d5c;
+  --accent-hover: #ffb380;
+  --text-dark: #e8e8e8;
+  --text-medium: #b8b8b8;
+  --text-light: #999999;
+  --bg-light: #1a1a1a;
+  --bg-white: #0f0f0f;
+  --border: #333333;
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,12 +53,48 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.dark-mode-toggle:hover {
+  background: var(--primary);
+  transform: scale(1.05);
+}
+
+.dark-mode .dark-mode-toggle .sun-icon {
+  display: inline;
+}
+
+.dark-mode .dark-mode-toggle .moon-icon {
+  display: none;
+}
+
+.dark-mode-toggle .sun-icon {
+  display: none;
+}
+
+.dark-mode-toggle .moon-icon {
+  display: inline;
 }
 
 /* Header Styles */
@@ -55,6 +109,10 @@ header {
   box-shadow: var(--shadow-sm);
   border-bottom: 1px solid var(--border);
   transition: all 0.3s ease;
+}
+
+body.dark-mode header {
+  background: rgba(15, 15, 15, 0.98);
 }
 
 nav {
@@ -215,6 +273,10 @@ nav {
   line-height: 1.8;
   color: #2b2727;
   font-weight: 400;
+}
+
+body.dark-mode .hero-content p {
+  color: #e8e8e8;
 }
 
 .cta-button {
