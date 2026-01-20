@@ -139,6 +139,142 @@ $content = [
         'contact_desc' => 'Für ein erstes Gespräch oder Fragen, melden Sie sich bitte direkt per Mail. Bei Bedarf können wir offene Fragen auch telefonisch besprechen.',
         'contact_methods' => 'Online-Termine über Skype, Zoom oder Telefon',
         'footer_text' => '© 2024 Dr. Anna Gamma - Psychologische Beratung. Alle Rechte vorbehalten.'
+    ],
+    'es' => [
+        'title' => 'Dr. Anna Gamma - Asesoramiento Psicológico',
+        'nav_home' => 'Inicio',
+        'nav_services' => 'Servicios',
+        'nav_process' => 'Proceso',
+        'nav_about' => 'Sobre mí',
+        'nav_contact' => 'Contacto',
+        'hero_title' => 'Apoyo Psicológico Profesional',
+        'hero_subtitle' => 'Asesoramiento online para niños, adolescentes y adultos',
+        'hero_description' => '¿Busca apoyo profesional en situaciones de estrés personal o profesional o crisis? Como psicóloga, le apoyo en situaciones difíciles de la vida con un enfoque orientado a los recursos y las soluciones.',
+        'hero_cta' => 'Programar Consulta',
+        'services_title' => 'Mis Servicios',
+        'services_subtitle' => 'Asesoramiento profesional adaptado a sus necesidades individuales',
+        'life_work_title' => 'Vida y Trabajo',
+        'life_work_items' => [
+            'Desafíos personales/profesionales',
+            'Gestión de crisis',
+            'Gestión del estrés',
+            'Toma de decisiones y transiciones',
+            'Ansiedad ante exámenes o entrevistas',
+            'Objetivos profesionales'
+        ],
+        'emotions_title' => 'Emociones y Relaciones',
+        'emotions_items' => [
+            'Problemas de pareja o separación',
+            'Pérdida y duelo',
+            'Sentimientos o comportamientos perturbadores',
+            'Comunicación',
+            'Autoconocimiento'
+        ],
+        'growth_title' => 'Crecimiento y Bienestar',
+        'growth_items' => [
+            'Desarrollo personal',
+            'Fortalecer su autoestima',
+            'Ser más consciente',
+            'Transición a una nueva fase de la vida'
+        ],
+        'process_title' => 'Mi Enfoque',
+        'process_subtitle' => 'Consulta inicial y proceso',
+        'initial_title' => 'Consulta Inicial',
+        'initial_desc' => 'Nos conocemos, aclaramos sus preocupaciones, definimos objetivos y acordamos la frecuencia de las sesiones.',
+        'ongoing_title' => 'Proceso Continuo',
+        'ongoing_desc' => 'Desarrollamos una comprensión más profunda de su situación actual y trabajamos de manera orientada a soluciones, considerando también las influencias biográficas y sociales relevantes.',
+        'integration_title' => 'Integración y Cambio',
+        'integration_desc' => 'Juntos exploramos nuevas perspectivas, las aplicamos a la vida diaria y realizamos cambios a su propio ritmo en un espacio seguro.',
+        'about_title' => 'Sobre Mí',
+        'about_subtitle' => 'Dr. Anna Gamma, psicóloga y profesora universitaria',
+        'about_desc' => 'Combino conocimiento psicológico profundo, experiencia científica y amplia experiencia en asesoramiento para apoyar a mis clientes con claridad, empatía y eficacia.',
+        'experience_title' => 'Experiencia Laboral',
+        'experience_items' => [
+            'Más de 15 años de experiencia en asesoramiento a niños y adolescentes',
+            'Profesora de asesoramiento psicológico en la Universidad de Ciencias Aplicadas Kalaidos',
+            '14 años como gerente de proyectos y consultora de salud pública para UNICEF, Oxfam y otras ONGs',
+            'Varios años formando expertos en cambio sistemático de comportamiento'
+        ],
+        'education_title' => 'Formación y Educación',
+        'fees_title' => 'Honorarios y Condiciones',
+        'session_fee' => '130 CHF por sesión de 60 minutos',
+        'payment_methods' => 'Pago: TWINT o Revolut',
+        'cancellation' => 'Las cancelaciones dentro de 24 horas serán cobradas',
+        'insurance_note' => 'Las sesiones no pueden facturarse a través del seguro médico',
+        'confidentiality' => 'Todas las sesiones están sujetas a confidencialidad legal',
+        'contact_title' => 'Contacto',
+        'contact_subtitle' => '¿Listo para dar el primer paso?',
+        'contact_desc' => 'Para una discusión inicial o preguntas, por favor contácteme directamente por correo electrónico. Si es necesario, también podemos discutir preguntas abiertas por teléfono.',
+        'contact_methods' => 'Sesiones online por Skype, Zoom o teléfono',
+        'footer_text' => '© 2024 Dr. Anna Gamma - Asesoramiento Psicológico. Todos los derechos reservados.'
+    ],
+    'fr' => [
+        'title' => 'Dr. Anna Gamma - Conseil Psychologique',
+        'nav_home' => 'Accueil',
+        'nav_services' => 'Services',
+        'nav_process' => 'Processus',
+        'nav_about' => 'À propos',
+        'nav_contact' => 'Contact',
+        'hero_title' => 'Soutien Psychologique Professionnel',
+        'hero_subtitle' => 'Conseil en ligne pour enfants, adolescents et adultes',
+        'hero_description' => 'Vous cherchez un soutien professionnel lors de défis personnels ou professionnels ou en temps de crise? En tant que psychologue, je vous accompagne dans les situations de vie difficiles avec une approche orientée ressources et solutions.',
+        'hero_cta' => 'Prendre Rendez-vous',
+        'services_title' => 'Mes Services',
+        'services_subtitle' => 'Conseil professionnel adapté à vos besoins individuels',
+        'life_work_title' => 'Vie et Travail',
+        'life_work_items' => [
+            'Défis personnels/professionnels',
+            'Gestion de crise',
+            'Gestion du stress',
+            'Prise de décision et transitions',
+            'Stress d\'examen ou d\'entretien',
+            'Objectifs professionnels'
+        ],
+        'emotions_title' => 'Émotions et Relations',
+        'emotions_items' => [
+            'Problèmes relationnels ou séparation',
+            'Perte et deuil',
+            'Sentiments ou comportements perturbateurs',
+            'Communication',
+            'Conscience de soi'
+        ],
+        'growth_title' => 'Croissance et Bien-être',
+        'growth_items' => [
+            'Développement personnel',
+            'Renforcer votre estime de soi',
+            'Devenir plus conscient',
+            'Transition vers une nouvelle phase de vie'
+        ],
+        'process_title' => 'Mon Approche',
+        'process_subtitle' => 'Consultation initiale et processus',
+        'initial_title' => 'Consultation Initiale',
+        'initial_desc' => 'Nous faisons connaissance, clarifions vos préoccupations, définissons les objectifs et convenons de la fréquence des séances.',
+        'ongoing_title' => 'Processus Continu',
+        'ongoing_desc' => 'Nous développons une compréhension plus profonde de votre situation actuelle et travaillons de manière orientée solutions, tout en considérant les influences biographiques et sociales pertinentes.',
+        'integration_title' => 'Intégration et Changement',
+        'integration_desc' => 'Ensemble, nous explorons de nouvelles perspectives, les appliquons à la vie quotidienne et apportons des changements à votre rythme dans un espace sûr.',
+        'about_title' => 'À Propos de Moi',
+        'about_subtitle' => 'Dr. Anna Gamma, psychologue et professeure d\'université',
+        'about_desc' => 'Je combine des connaissances psychologiques approfondies, une expertise scientifique et une vaste expérience en conseil pour soutenir mes clients avec clarté, empathie et efficacité.',
+        'experience_title' => 'Expérience Professionnelle',
+        'experience_items' => [
+            'Plus de 15 ans d\'expérience en conseil auprès d\'enfants et d\'adolescents',
+            'Professeure de conseil psychologique à l\'Université des Sciences Appliquées Kalaidos',
+            '14 ans en tant que chef de projet et consultante en santé publique pour UNICEF, Oxfam et d\'autres ONG',
+            'Plusieurs années à former des experts en changement systématique de comportement'
+        ],
+        'education_title' => 'Formation et Éducation',
+        'fees_title' => 'Honoraires et Conditions',
+        'session_fee' => '130 CHF par séance de 60 minutes',
+        'payment_methods' => 'Paiement: TWINT ou Revolut',
+        'cancellation' => 'Les annulations dans les 24 heures seront facturées',
+        'insurance_note' => 'Les séances ne peuvent pas être facturées via l\'assurance maladie',
+        'confidentiality' => 'Toutes les séances sont soumises à la confidentialité légale',
+        'contact_title' => 'Contact',
+        'contact_subtitle' => 'Prêt à faire le premier pas?',
+        'contact_desc' => 'Pour une discussion initiale ou des questions, veuillez me contacter directement par e-mail. Si nécessaire, nous pouvons également discuter de questions ouvertes par téléphone.',
+        'contact_methods' => 'Séances en ligne via Skype, Zoom ou téléphone',
+        'footer_text' => '© 2024 Dr. Anna Gamma - Conseil Psychologique. Tous droits réservés.'
     ]
 ];
 
@@ -166,6 +302,8 @@ $t = $content[$lang];
                 <li class="lang-switcher">
                     <a href="?lang=en" class="<?php echo $lang === 'en' ? 'active' : ''; ?>">EN</a>
                     <a href="?lang=de" class="<?php echo $lang === 'de' ? 'active' : ''; ?>">DE</a>
+                    <a href="?lang=es" class="<?php echo $lang === 'es' ? 'active' : ''; ?>">ES</a>
+                    <a href="?lang=fr" class="<?php echo $lang === 'fr' ? 'active' : ''; ?>">FR</a>
                 </li>
             </ul>
         </nav>
@@ -267,11 +405,11 @@ $t = $content[$lang];
                 <div class="about-text">
                     <h3><?php echo $t['education_title']; ?></h3>
                     <ul>
-                        <li><?php echo $lang === 'en' ? 'Master\'s degree in Psychology and Psychopathology, University of Zurich (2013)' : 'Lizentiat/Master in Psychologie und Psychopathologie der Universität Zürich (2013)'; ?></li>
-                        <li><?php echo $lang === 'en' ? 'Doctorate in social and health psychology, University of Zurich and EAWAG (2017)' : 'Doktorat in Sozial-und Gesundheitspsychologie an der Universität Zürich und der EAWAG (2017)'; ?></li>
-                        <li><?php echo $lang === 'en' ? 'Further training in emergency psychology at SBAP (2020)' : 'Weiterbildung in Notfallpsychologie beim SBAP (2020)'; ?></li>
-                        <li><?php echo $lang === 'en' ? 'Further training in hypnosystemic coaching at IEF (2024)' : 'Weiterbildung in hypnosystemischem Coaching am IEF (2024)'; ?></li>
-                        <li><?php echo $lang === 'en' ? 'Further training in medical hypnosis, University of Freiburg (2024-2025)' : 'Weiterbildung in medizinischer Hypnose an der Universität Freiburg i.B. (2024-2025)'; ?></li>
+                        <li><?php echo $lang === 'en' ? 'Master\'s degree in Psychology and Psychopathology, University of Zurich (2013)' : ($lang === 'de' ? 'Lizentiat/Master in Psychologie und Psychopathologie der Universität Zürich (2013)' : ($lang === 'es' ? 'Máster en Psicología y Psicopatología, Universidad de Zúrich (2013)' : 'Master en Psychologie et Psychopathologie, Université de Zurich (2013)')); ?></li>
+                        <li><?php echo $lang === 'en' ? 'Doctorate in social and health psychology, University of Zurich and EAWAG (2017)' : ($lang === 'de' ? 'Doktorat in Sozial-und Gesundheitspsychologie an der Universität Zürich und der EAWAG (2017)' : ($lang === 'es' ? 'Doctorado en psicología social y de la salud, Universidad de Zúrich y EAWAG (2017)' : 'Doctorat en psychologie sociale et de la santé, Université de Zurich et EAWAG (2017)')); ?></li>
+                        <li><?php echo $lang === 'en' ? 'Further training in emergency psychology at SBAP (2020)' : ($lang === 'de' ? 'Weiterbildung in Notfallpsychologie beim SBAP (2020)' : ($lang === 'es' ? 'Formación continua en psicología de emergencias en SBAP (2020)' : 'Formation continue en psychologie d\'urgence au SBAP (2020)')); ?></li>
+                        <li><?php echo $lang === 'en' ? 'Further training in hypnosystemic coaching at IEF (2024)' : ($lang === 'de' ? 'Weiterbildung in hypnosystemischem Coaching am IEF (2024)' : ($lang === 'es' ? 'Formación continua en coaching hipnosistémico en IEF (2024)' : 'Formation continue en coaching hypnosystémique à l\'IEF (2024)')); ?></li>
+                        <li><?php echo $lang === 'en' ? 'Further training in medical hypnosis, University of Freiburg (2024-2025)' : ($lang === 'de' ? 'Weiterbildung in medizinischer Hypnose an der Universität Freiburg i.B. (2024-2025)' : ($lang === 'es' ? 'Formación continua en hipnosis médica, Universidad de Friburgo (2024-2025)' : 'Formation continue en hypnose médicale, Université de Fribourg (2024-2025)')); ?></li>
                     </ul>
                 </div>
             </div>
@@ -308,7 +446,7 @@ $t = $content[$lang];
                     <h3>Email</h3>
                     <p><a href="mailto:mail@gammaberatung.ch">mail@gammaberatung.ch</a></p>
                     
-                    <h3><?php echo $lang === 'en' ? 'Phone' : 'Telefon'; ?></h3>
+                    <h3><?php echo $lang === 'en' ? 'Phone' : ($lang === 'de' ? 'Telefon' : ($lang === 'es' ? 'Teléfono' : 'Téléphone')); ?></h3>
                     <p><a href="tel:+41763694782">+41 76 369 47 82</a></p>
                 </div>
             </div>
